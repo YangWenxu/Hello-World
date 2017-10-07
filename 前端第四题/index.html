@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document API</title>
+</head>
+<script language=javascript>
+    var result = document.getElementById("result");
+    var file = document.getElementById("file");
+
+    function readAsDataURL() {
+        var file = document.getElementById("file").files[0];
+        if (!/image\/\w+/.test(file.type)) {
+            alert("请确保文件为图像类型");
+            return false;
+        }
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function(e) {
+            var result = document.getElementById("result");
+            result.innerHTML = '<img src="' + this.result + '" alt=""/>'
+        }
+    }
+</script>
+
+<p>
+    <input type="file" id="file" multiple size="80" />
+    <input type="button" onclick="readAsDataURL();" value="确定" />
+</p>
+<div name="result" id="result">
+    <!-- 这里用来显示读取结果 -->
+</div>
+
+
+</html>

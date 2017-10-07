@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    width: 100;
+    height: 100;
+}
+
+
+/* 网页第一栏布局 */
+
+.log_top {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.left_log {
+    float: left;
+    margin-left: 220px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: bold;
+}
+
+.right_log {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.log1 {
+    margin-left: 2em;
+}
+
+.log2 {
+    margin-left: 2em;
+}
+
+.log3 {
+    margin-left: 2em;
+}
+
+
+/* 网页第二栏布局 */
+
+.img_1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.img_2 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.context {
+    width: 100%;
+    height: 450px;
+}
+
+.page2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    z-index: 2;
+    left: 550px;
+    top: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page3 {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(229, 82, 127);
+    margin-left: 500px;
+    text-align: center;
+}
+
+.page4 {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* 网页第三栏布局 */
+
+.container {
+    width: 100%;
+    height: 435px;
+    text-align: center;
+}
+
+.left_container {
+    float: left;
+    width: 18%;
+    margin-left: 20%;
+}
+
+.center_container {
+    float: left;
+    width: 18%;
+    margin-left: 24px;
+}
+
+.right_container {
+    float: right;
+    width: 18%;
+    margin-right: 22%;
+}
+
+.img_3 {
+    margin-top: 107px;
+}
+
+.img_4 {
+    margin-top: 107px;
+}
+
+.img_5 {
+    margin-top: 107px;
+}
+
+.img_6 {
+    display: inline-block;
+    margin-top: 33px;
+}
+
+.wenzi {
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+.wenzi1 {
+    font-size: 13px;
+    font-family: bold;
+    margin-top: 33px;
+    display: inline-block;
+}
+
+
+/* 网页第四栏布局 */
+
+.footer {
+    width: 100%;
+    height: 307px;
+    background: #38404b;
+}
+
+.font1 {
+    font-size: 1.7em;
+    font-family: 宋体;
+    text-align: center;
+    padding-top: 3em;
+    color: white;
+}
+
+.font2 {
+    font-size: 1.2em;
+    font-family: 宋体;
+    font-weight: bold;
+    margin-left: 500px;
+    padding-top: 2em;
+}
+
+.font3 {
+    font-size: 1.2em;
+    font-family: 宋体;
+    font-weight: bold;
+    margin-left: 1.2em;
+}
+
+.font4 {
+    font-size: 1.2em;
+    font-family: 宋体;
+    font-weight: bold;
+    margin-left: 1.2em;
+}
+
+.font5 {
+    font-size: 1.2em;
+    font-family: 宋体;
+    font-weight: bold;
+    margin-left: 1.2em;
+}
+
+.font6 {
+    font-size: 0.9em;
+    font-family: 宋体;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5em;
+}
